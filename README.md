@@ -2,7 +2,7 @@
 
 This is a repository for the queries I have been using to explore the Titanic dataset from Kaggle using SQL Server.
 
-## How to setup
+## How to use
 
 Create a new database called 'titanic':
 ```
