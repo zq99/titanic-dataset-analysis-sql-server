@@ -1,4 +1,4 @@
-# Titanic dataset exploratory analysis using SQL Server
+# Titanic dataset analysis using SQL Server
 
 This is a repository for the queries I have been using to explore the Titanic dataset from Kaggle using SQL Server.
 
