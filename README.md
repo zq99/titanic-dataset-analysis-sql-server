@@ -2,7 +2,7 @@
 
 This is a repository for the queries I have been using to explore the Titanic dataset from Kaggle using SQL Server.
 
-## How to use
+## How to run
 
 Create a new database called 'titanic':
 ```
@@ -41,6 +41,6 @@ The following view can be used to look at information across both the main table
 ```
   vw_train_and_test_combined
 ```
-
+This view has a column called 'dataset' which allows you to distinguish between the data in the two tables if necessary.
 
 
