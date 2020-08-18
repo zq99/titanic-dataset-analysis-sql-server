@@ -4,7 +4,7 @@ This is a repository for the queries I have been using to explore the Titanic da
 
 ## How to setup
 
-To setup, if you have write permission on your server create a new database called 'titanic':
+Create a new database called 'titanic':
 ```
   drop database if exists titanic;
   create database titanic;
