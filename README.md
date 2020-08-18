@@ -1,22 +1,18 @@
-# titanic dataset exploratory analysis sql server
+# Titanic dataset exploratory analysis using SQL Server
 
 This is a repository for the queries I have been using to explore the Titanic dataset from Kaggle using SQL Server.
-
 
 ## How to setup
 
 To setup, if you have write permission on your server create a new database called 'titanic':
-
 ```
   drop database if exists titanic;
   create database titanic;
 ```
 Next, create the core database objects for the analysis by running the following script:
-
 ```
   sql_initialize_titanic_database;
 ```
-
 This will create all the base tables, stored procs, and scalar functions.
 
 
@@ -24,7 +20,7 @@ This will create all the base tables, stored procs, and scalar functions.
 
 Once all the database objects have been setup, download the import files from this repository into a location.
 
-The files are the same as the ones from Kaggle, however they have the headers removed to because the 'bulk insert' process in SQL server was having issues with these.
+The files are from Kaggle, however they have the headers removed because the 'bulk insert' process in SQL server was having issues with these.
 
 Import the data using the following statements:
 ```
@@ -45,6 +41,6 @@ The following view can be used to look at information across both the main table
 ```
   vw_train_and_test_combined
 ```
-The 'test' table does not have any missing data filled in, and is the same as required for Kaggle model prediction.
+
 
 
