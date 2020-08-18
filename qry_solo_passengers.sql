@@ -1,5 +1,5 @@
 
--- solo travellers on the titanic how did they faired
+-- solo travellers on the titanic find out about their fate
 
 select pclass, sex, count(passengerId) as total_count, sum(survived) as number_survived, 
 round((cast(sum(survived) as float)/count(passengerId)),2) * 100 as percent_survived
